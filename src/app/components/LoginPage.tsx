@@ -100,22 +100,22 @@ export function LoginPage() {
                   </small>
                 </div>
 
-                <div className="mt-4 p-3 rounded" style={{ backgroundColor: '#f8f9fa' }}>
-                  <div className="d-flex align-items-center justify-content-between mb-2">
-                    <small className="text-muted">Device status</small>
-                    <small className="text-muted">(1/3) Used</small>
-                  </div>
-                  <div className="d-flex align-items-center justify-content-center mb-2" style={{ height: '60px' }}>
-                    <div className="spinner-border text-secondary" role="status" style={{ width: '3rem', height: '3rem' }}>
-                      <span className="visually-hidden">Loading...</span>
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <small className="text-muted">{deviceStatus}</small>
-                    <br />
-                    <small className="text-muted">Trying to reconnect...</small>
-                  </div>
-                </div>
+                {/*<div className="mt-4 p-3 rounded" style={{ backgroundColor: '#f8f9fa' }}>*/}
+                {/*  <div className="d-flex align-items-center justify-content-between mb-2">*/}
+                {/*    <small className="text-muted">Device status</small>*/}
+                {/*    <small className="text-muted">(1/3) Used</small>*/}
+                {/*  </div>*/}
+                {/*  <div className="d-flex align-items-center justify-content-center mb-2" style={{ height: '60px' }}>*/}
+                {/*    <div className="spinner-border text-secondary" role="status" style={{ width: '3rem', height: '3rem' }}>*/}
+                {/*      <span className="visually-hidden">Loading...</span>*/}
+                {/*    </div>*/}
+                {/*  </div>*/}
+                {/*  <div className="text-center">*/}
+                {/*    <small className="text-muted">{deviceStatus}</small>*/}
+                {/*    <br />*/}
+                {/*    <small className="text-muted">Trying to reconnect...</small>*/}
+                {/*  </div>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
